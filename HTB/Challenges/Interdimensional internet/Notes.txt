@@ -1,0 +1,23 @@
+cookie is a JWT = JSON web token
+
+cookie: eyJpbmdyZWRpZW50Ijp7IiBiIjoiYm05d2FXVnFZWGh2ZUE9PSJ9LCJtZWFzdXJlbWVudHMiOnsiIGIiOiJOakFyTlRVPSJ9fQ.YG1X_g.iXcgGruE0EdThDtv9eZ0LKqnd6Y
+decoded header part of jwt result from B64 utf-8:
+{"ingredient":{" b":"bnR0cXB5eHNvdA=="},"measurements":{" b":"MzYtMTI="}}
+
+"ingredient":
+bnR0cXB5eHNvdA== -> nttqpyxsot
+
+"measurements":
+NjArNTU= -> 60+55
+
+measurments coralates directly to the numbers on the screen.
+
+calc expression is open to exploit
+
+urls:
+https://translate.google.com/translate?hl=en&sl=zh-CN&u=https://blog.ncu204.com/post/hack_the_box/interdimensional-internet/&prev=search&pto=aue
+https://jwt.io/introduction
+https://www.base64decode.org/
+https://www.base64encode.org/
+https://forum.portswigger.net/thread/web-pages-don-t-load-through-proxy-is-this-normal-4448c1f3
+https://github.com/RyanH7279/HTB
